@@ -1,3 +1,15 @@
+"""
+Upload Page - Upload baseline and current datasets
+"""
+
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(
+    page_title="Upload - Data Drift Sentinel",
+    page_icon="📤"
+)
+
 st.title("📤 Upload Datasets")
 
 st.markdown("""
